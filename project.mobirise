@@ -37,6 +37,8 @@
     },
     "favicon": "",
     "noImageResize": "",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
   },
@@ -1044,8 +1046,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/picture3-900x535.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/diskusipanelbg-2-2000x1211.jpg",
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -1053,15 +1055,16 @@
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
-                "title": "SEMINAR NASIONAL",
+                "title": "Diskusi Panel Indonesia Outlook 2018",
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "Seminar kebangsaan di Semarang, &nbsp;akan dihadiri oleh ALSTE Ibu Sri Mulyani Indrawati dan Ibu Retno Lestari Priansari Marsudi, mengangkat tema : Peningkatan Pangsa Pasar IKM dalam Menghadapi Persaingan Global, pokok bahasan : Financing dan KITE (Kemudahan Impor Tujuan Ekspor).",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.8"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/picture4-900x456.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -1093,13 +1096,13 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/reuni2blur-1600x1001.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                BODJONG FESTIVAL</h1>\n            <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">REUNI AKBAR 2017<div>SMA 3 Semarang&nbsp;</div><div>Semua Angkatan</div><div>(d/h. SMA A, C, III, IV)</div><div><br></div></h3>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Minggu, 29 Oktober 2017<br>Jam 06.00 - 15.00<br>Di SMA 3 Semarang<br><br>Acara :<br>1. Jalan Sehat<br>2. Senam<br>3. Donor darah<br>4. Festival Kuliner Semarangan<br>5. Pentas Alumni<br>6. Hiburan Congrock 17<br><br>Kontribusi : Rp 100ribu termasuk sumbangan untuk SMA 3.<br>Diskon 50 persen khusus lulusan 2011-2017<br><br>Peserta akan mendapatkan : Snack, Kupon Festival Kuliner, Goodie Bag, Souvenir<br><br>Pendaftaran melalui Koordinator Angkatan<br>paling lambat 21 Oktober 2017<br><br>🍀🍀 Pendaftaran dengan NAMA LENGKAP🍀🍀<br><br>CP :<br>- Kelik '87 0818246282<br>- Deasy Chandra '93  081325107075<br><br>Ayooooo kita ramaikan acara Reuni Akbar Alste Indonesia ini....<br><br>Alste Untuk Negeri<br><br>♻♻♻♻♻♻</p>\n            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/reuni2blur-1600x1001.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n            <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                BODJONG FESTIVAL</h1>\n            <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">REUNI AKBAR 2017 SMA 3 Semarang&nbsp;<div>Semua Angkatan&nbsp;<span style=\"color: inherit; font-size: 3rem;\">(d/h. SMA A, C, III, IV)</span></div><div><br></div></h3>\n            <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Minggu, 29 Oktober 2017&nbsp;Jam 06.00 - 15.00<br>Di SMA 3 Semarang<br><br>Acara :<br>1. Jalan Sehat<br>2. Senam<br>3. Donor darah<br>4. Festival Kuliner Semarangan<br>5. Pentas Alumni<br>6. Hiburan Congrock 17<br><br>Kontribusi : Rp 100ribu termasuk sumbangan untuk SMA 3.<br>Diskon 50 persen khusus lulusan 2011-2017<br><br>Peserta akan mendapatkan : Snack, Kupon Festival Kuliner, Goodie Bag, Souvenir<br>Pendaftaran melalui Koordinator Angkatan<br>paling lambat 21 Oktober 2017<br>🍀🍀 Pendaftaran dengan NAMA LENGKAP🍀🍀<br>CP :<br>- Kelik '87 0818246282<br>- Deasy Chandra '93  081325107075<br><br>Ayooooo kita ramaikan acara Reuni Akbar Alste Indonesia ini....<br><br>Alste Untuk Negeri<br><br>♻♻♻♻♻♻</p>\n            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\">\n                <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                <a class=\"btn btn-md btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qv0Hj8rVQz",
+          "_anchor": "header2-u",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "header2-u"
+          "_params": {}
         },
         {
           "_styles": {
@@ -1163,7 +1166,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/kemeja-alste-panjang-429x660.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kemeja%20alste%20panjang-429x660.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/kemeja-alste-panjang-429x660-429x660.jpg",
                 "alt": "Kemeja Alste Lengan Panjang",
                 "customStyle1": "display-7",
@@ -1187,7 +1190,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/polo-biru-640x835.jpg",
+                "image": "@PROJECT_PATH@/assets/images/polo%20biru-640x835.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/polo-biru-640x835-640x835.jpg",
                 "alt": "Polo Biru Alse Indonesia",
                 "customStyle1": "display-7",
@@ -1199,7 +1202,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/polo-putih-642x845.jpg",
+                "image": "@PROJECT_PATH@/assets/images/polo%20putih-642x845.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/polo-putih-642x845-642x845.jpg",
                 "alt": "Polo Putih Alste Indonesia",
                 "customStyle1": "display-7",
@@ -1223,7 +1226,7 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/kemeja-alste-lengan-pendek-304x376.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kemeja%20alste%20lengan%20pendek-304x376.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/kemeja-alste-lengan-pendek-304x376-304x376.jpg",
                 "alt": "Kemeja A;ste :engan Pendek",
                 "customStyle1": "display-7",
