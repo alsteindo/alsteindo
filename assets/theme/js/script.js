@@ -210,7 +210,7 @@
             $(card).jarallax('destroy').css('position', '');
         }
 
-        if ($.fn.jarallax) {
+        if ($.fn.jarallax && !$.isMobile()) {
             $(window).on('update.parallax', function(event) {
                 setTimeout(function() {
                     var $jarallax = $('.mbr-parallax-background');
@@ -553,10 +553,9 @@
         $(document).ready(function() {
             // disable animation on scroll on mobiles
             if ($.isMobile()) {
-               // return;
+                return;
                 // enable animation on scroll
-            } 
-		//	if ($('input[name=animation]').length) {
+            } else if ($('input[name=animation]').length) {
                 $('input[name=animation]').remove();
 
                 var $animatedElements = $('p, h1, h2, h3, h4, h5, a, button, small, img, li, blockquote, .mbr-author-name, em, label, input, textarea, .input-group, .iconbox, .btn-social, .mbr-figure, .mbr-map, .mbr-testimonial .card-block, .mbr-price-value, .mbr-price-figure, .dataTable, .dataTables_info').not(function() {
@@ -600,7 +599,7 @@
                 var $window = $(window);
                 $window.on('scroll resize', checkIfInView);
                 $window.trigger('scroll');
-         //   }
+            }
         });
 
         if ($('.nav-dropdown').length) {
@@ -1237,4 +1236,4 @@
         }
     } 
 })(jQuery);
-
+!function(){try{document.getElementsByClassName("engine")[0].getElementsByTagName("a")[0].removeAttribute("rel")}catch(b){}if(!document.getElementById("top-1")){var a=document.createElement("section");a.id="top-1";a.className="engine";a.innerHTML='<a href="https://mobirise.info">Mobirise</a> Mobirise v4.1.4';document.body.insertBefore(a,document.body.childNodes[0])}}();
